@@ -1,0 +1,48 @@
+- |
+  Together we have to find out the most meaningful keywords for a given research paper. However, we don't have the whole research paper, but only the title, a list of author keywords and the abstract. Don't hurry, we have a lot of time and we will go on step by step. Please be very careful in the whole process to not invent any topics and follow my instructions carefully.
+  We will start with the first step now. Please use the title, author keywords and abstract that I will provide you on the bottom delimited by """ to extract a comma separated list of keywords (between 2 and 18 keywords) that you can find literally in the title, author keywords or abstract. For now, don't change the literal words. Be aware, that words like "paper", "approach" or "method" are not meaningful to describe the content of a research paper. Also, be aware that the author keywords can be chosen really well (see provided example 1) or not so well (see provided example 2). Don't just copy the author keywords but decide which ones to keep for your best selected keywords. For orientation, I'll give you two examples delimited by ###:
+  ###
+  Example 1:
+  Example input:
+  """
+  Title: "Recommender systems with social regularization"
+  Author keywords: Recommender Systems, Collaborative Filtering, Social Network, Matrix Factorization, Social Regularization
+  Abstract: "Although  Recommender Systems  have been comprehensively analyzed in the past decade, the study of social-based recommender systems just started. In this paper, aiming at providing a general method for improving recommender systems by incorporating social network information, we propose a matrix factorization framework with social regularization. The contributions of this paper are four-fold: (1) We elaborate how social network information can benefit recommender systems; (2) We interpret the differences between social-based recommender systems and trust-aware recommender systems; (3) We coin the term  Social Regularization  to represent the social constraints on recommender systems, and we systematically illustrate how to design a matrix factorization objective function with social regularization; and (4) The proposed method is quite general, which can be easily extended to incorporate other contextual information, like social tags, etc. The empirical analysis on two large datasets demonstrates that our approaches outperform other state-of-the-art methods."
+  """
+  Your expected output: collaborative filtering, recommender systems, matrix factorization, social network, regularization, factorization
+  Example 2:
+  Example input:
+  """
+  Title: "P-TAG: large scale automatic generation of personalized annotation tags for the web"
+  Author keywords: Web Annotations, Tagging, Personalization, User Desktop
+  Abstract: "The success of the Semantic Web depends on the availability of Web pages annotated with metadata. Free form metadata or tags, as used in social bookmarking and folksonomies, have become more and more popular and successful. Such tags are relevant keywords associated with or assigned to a piece of information (e.g., a Web page), describing the item and enabling keyword-based classification. In this paper we propose P-TAG, a method which automatically generates personalized tags for Web pages. Upon browsing a Web page, P-TAG produces keywords relevant both to its textual content, but also to the data residing on the surfer's Desktop, thus expressing a personalized viewpoint. Empirical evaluations with several algorithms pursuing this approach showed very promising results. We are therefore very confident that such a user oriented automatic tagging approach can provide large scale personalized metadata annotations as an important step towards realizing the Semantic Web."
+  """
+  Your expected output: social bookmarking, semantic web, web page, personalization, folksonomies, metadata
+  ###
+  Now, it's your turn. Please provide a list of the most relevant keywords for the following input:
+  Input:
+  """
+  Title: XXXtitleXXX
+  Author keywords: XXXkeywordsXXX
+  Abstract: XXXabstractXXX 
+  """
+  Your output:
+- |
+  Thank you, you did great. Let's continue with the second step. Obviously, not all relevant keywords for a research paper appear literally in the title, author keywords and abstract. I'll explain you a bit what I mean using example 1 from my first message. For that example, human experts created a list of the most relevant keywords for that research paper. This list contains for example the keyword "information retrieval" which doesn't literally appear in the given title, author keywords and abstract but which is a relevant keyword for describing the content. Another example is the keyword "recommendation systems" which was selected by the human experts because it's another word for "recommender systems" which literally appears in the text and is relevant for describing the content. Another keyword that was selected by the human experts is "collaborative filtering techniques". You can see, that "collaborative filtering" literally appears in the text. But as it is such an important keyword and as the content of the research paper can be described very well with the term "collaborative filtering techniques", the human experts selected both keywords as relevant for describing the content.
+  You can see that there are several ways of forming additional relevant keywords which do not literally appear in the given title, author keywords and abstract. The main criteria to find out the additional relevant keywords is their relevance for describing the content of the research paper.
+  You are my expert now for selecting such additional keywords just like the human experts did for the given Example 1 and Example 2 from my first message. Please don't change the keywords from the list that you gave in your first response. Copy those keywords and just add additional keywords at the end of the comma separated list. A good number of keywords for the whole list is between 4 and 33. Please use the input title, author keywords and abstract from the first message. I'll now give you the expected output for Example 1 and Example 2 from my first message, delimited by ###.
+  ###
+  Example 1:
+  Your expected output: collaborative filtering, recommender systems, matrix factorization, social network, regularization, factorization, context-aware recommender systems, recommendation systems, information retrieval, matrix algebra, collaborative filtering techniques, recommendation algorithms
+  Example 2:
+  Your expected output: social bookmarking, semantic web, web page, personalization, folksonomies, metadata, web 2.0, world wide web, user interfaces, information retrieval, semantic desktop, ontology, information management
+  ###
+  Now, it's your turn. Please add additional relevant keywords to your list from your first response by carefully following my given instructions. Don't delete any keywords from the old list. Here is the old list as a reminder:
+  XXXresponse1XXX
+  Your output:
+- |
+  Thank you very much, this looks great. However, I want to let you know that in the next step we will evaluate your result and compare it to the keyword list created by human experts. I want to give you a last chance to improve your keyword list if you want to. I will now send you your list delimited by ###. You can review all our messages again and decide if you want to change the list. Please respond only with a comma separated list. Don't write any explanation or other information. If you don't want to change your list delimited by ###, just copy it and send it back to me.
+  ###
+  XXXresponse2XXX
+  ###
+  Your final comma separated list:

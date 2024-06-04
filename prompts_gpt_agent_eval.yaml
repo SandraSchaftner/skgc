@@ -1,0 +1,112 @@
+- |
+  Thank you! As I already announced in my former message, your result will be compared with the result created by human experts. You will help me with that comparison. Delimited by """ I will now send you your result (called "Your result") and the human expert result (called "Human expert result"). Please look very carefully through all the keywords first and then reorder the two lists. Please put at the beginning of each list the keywords that are exactly the same in both lists. Then, try to match the other keywords semantically to each other. Put the most similar keywords first and at the end of the list the keywords that cannot be matched. As you can see in Example 2, keywords that differ only in being singular and plural, can be matched accordingly, like in Example 2 "personalization" and "personalizations". Furthermore, very similar keywords can be matched, too, like in Example 2 "semantics" and "semantic desktop". Please put these words on the same position in the lists.
+  Please don't delete any keywords and don't invent any additional keywords. The keywords stay the same for each list, just change the order. Delimited by ### I will give you two example inputs and outputs for Example 1 and 2 that you already know from my former messages.
+  ###
+  Example 1:
+  Example input:
+  """
+  Your result: recommendation algorithms, factorization, empirical analysis, social relations, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, matrix factorizations, social networks, recommender systems, matrix algebra, social relationships, information retrieval, image reconstruction, numerical model, world wide web
+  Human expert result: collaborative filtering, recommender systems, matrix factorization, social network, regularization, factorization, context-aware recommender systems, recommendation systems, information retrieval, matrix algebra, collaborative filtering techniques, recommendation algorithms
+  """
+  Your expected output:
+  Your result: recommendation algorithms, factorization, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, recommender systems, matrix algebra, information retrieval, matrix factorizations, social networks, social relationships, empirical analysis, social relations, image reconstruction, numerical model, world wide web
+  Human expert result: recommendation algorithms, factorization, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, recommender systems, matrix algebra, information retrieval, matrix factorization, social network, context-aware recommender systems
+  Example 2:
+  Example input:
+  """
+  Your result: personalizations, metadata, social bookmarking, folksonomies, web page, viewpoint, semantic web, electronic commerce, search engines, user interfaces, web 2.0, social networks, software architecture, semantics, world wide web
+  Human expert result: social bookmarking, semantic web, web page, personalization, folksonomies, metadata, web 2.0, world wide web, user interfaces, information retrieval, semantic desktop, ontology, information management
+  """
+  Your expected output:
+  Your result: metadata, social bookmarking, folksonomies, web page, semantic web, user interfaces, web 2.0, world wide web, personalizations, semantics, search engines, social networks, software architecture, electronic commerce, viewpoint
+  Human expert result: metadata, social bookmarking, folksonomies, web page, semantic web, user interfaces, web 2.0, world wide web, personalization, semantic desktop, information retrieval, ontology, information management
+  ###
+  Now, it's your turn. Please change the order of each keywords list by carefully following my instructions. Stick to the required output format.
+  Input:
+  """
+  Your result: XXXskgc_topicsXXX
+  Human expert result: XXXgold_standardXXX
+  """
+  Your output:
+- |
+  Thank you very much. Now, you have the task to count the similar keywords of the two keyword lists ("Your result" and "Human expert result"). Please output only one integer number, nothing else. There must not be any text in your response.
+  I'll give you again two examples delimited by ### (Example 1 and 2 that you already know from the former messages) to show you what to do. For deciding if a keyword is similar, you can get orientation from my former examples again: As you can see in Example 2, keywords that differ only in being singular and plural, can be matched accordingly, like in Example 2 "personalization" and "personalizations". Furthermore, very similar keywords can be matched, too, like in Example 2 "semantics" and "semantic desktop". 
+  ###
+  Example 1:
+  Example input:
+  """
+  Your result: recommendation algorithms, factorization, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, recommender systems, matrix algebra, information retrieval, matrix factorizations, social networks, social relationships, empirical analysis, social relations, image reconstruction, numerical model, world wide web
+  Human expert result: recommendation algorithms, factorization, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, recommender systems, matrix algebra, information retrieval, matrix factorization, social network, context-aware recommender systems
+  """
+  Your expected output: 11
+  Example 2:
+  Example input:
+  """
+  Your result: metadata, social bookmarking, folksonomies, web page, semantic web, user interfaces, web 2.0, world wide web, personalizations, semantics, search engines, social networks, software architecture, electronic commerce, viewpoint
+  Human expert result: metadata, social bookmarking, folksonomies, web page, semantic web, user interfaces, web 2.0, world wide web, personalization, semantic desktop, information retrieval, ontology, information management
+  """
+  Your expected output: 10
+  ###
+  Now it's your turn. Please give the count of similar keywords that you can find in the two lists of the following input delimited by """.
+  Input:
+  """
+  Your result: XXXskgc_topics_orderedXXX
+  Human expert result:  XXXgold_standard_orderedXXX
+  """
+  Your output:
+- |
+  Thank you very much! Now we will complete another evaluation procedure with another solution which we will call "CSOC result" and compare that result also to the "human expert result".  Please help me again with that comparison. Delimited by """ I will now send you the CSOC result (called "CSOC result") and the human expert result (called "Human expert result"). Please look very carefully through all the keywords first and then reorder the two lists. Please put at the beginning of each list the keywords that are exactly the same in both lists. Then, try to match the other keywords semantically to each other. Put the most similar keywords first and at the end of the list the keywords that cannot be matched. As you can see in Example 2, keywords that differ only in being singular and plural, can be matched accordingly, like in Example 2 "personalization" and "personalizations". Furthermore, very similar keywords can be matched, too, like in Example 2 "semantics" and "semantic desktop". Please put these words on the same position in the lists.
+  Please don't delete any keywords and don't invent any additional keywords. The keywords stay the same for each list, just change the order. Delimited by ### I will give you two example inputs and outputs for Example 1 and 2 that you already know from my former messages.
+  ###
+  Example 1:
+  Example input:
+  """
+  CSOC result: recommendation algorithms, factorization, empirical analysis, social relations, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, matrix factorizations, social networks, recommender systems, matrix algebra, social relationships, information retrieval, image reconstruction, numerical model, world wide web
+  Human expert result: collaborative filtering, recommender systems, matrix factorization, social network, regularization, factorization, context-aware recommender systems, recommendation systems, information retrieval, matrix algebra, collaborative filtering techniques, recommendation algorithms
+  """
+  Your expected output:
+  CSOC result: recommendation algorithms, factorization, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, recommender systems, matrix algebra, information retrieval, matrix factorizations, social networks, social relationships, empirical analysis, social relations, image reconstruction, numerical model, world wide web
+  Human expert result: recommendation algorithms, factorization, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, recommender systems, matrix algebra, information retrieval, matrix factorization, social network, context-aware recommender systems
+  Example 2:
+  Example input:
+  """
+  CSOC result: personalizations, metadata, social bookmarking, folksonomies, web page, viewpoint, semantic web, electronic commerce, search engines, user interfaces, web 2.0, social networks, software architecture, semantics, world wide web
+  Human expert result: social bookmarking, semantic web, web page, personalization, folksonomies, metadata, web 2.0, world wide web, user interfaces, information retrieval, semantic desktop, ontology, information management
+  """
+  Your expected output:
+  CSOC result: metadata, social bookmarking, folksonomies, web page, semantic web, user interfaces, web 2.0, world wide web, personalizations, semantics, search engines, social networks, software architecture, electronic commerce, viewpoint
+  Human expert result: metadata, social bookmarking, folksonomies, web page, semantic web, user interfaces, web 2.0, world wide web, personalization, semantic desktop, information retrieval, ontology, information management
+  ###
+  Now, it's your turn. Please change the order of each keywords list by carefully following my instructions. Stick to the required output format.
+  Input:
+  """
+  CSOC result: XXXcsoc_topicsXXX
+  Human expert result: XXXgold_standardXXX
+  """
+  Your output:
+- |
+  Thank you very much. Now, you have the task to count the similar keywords of the two keyword lists ("CSOC result" and "Human expert result"). Please output only one integer number, nothing else. There must not be any text in your response.
+  I'll give you again two examples delimited by ### (Example 1 and 2 that you already know from the former messages) to show you what to do. For deciding if a keyword is similar, you can get orientation from my former examples again: As you can see in Example 2, keywords that differ only in being singular and plural, can be matched accordingly, like in Example 2 "personalization" and "personalizations". Furthermore, very similar keywords can be matched, too, like in Example 2 "semantics" and "semantic desktop". 
+  ###
+  Example 1:
+  Example input:
+  """
+  CSOC result: recommendation algorithms, factorization, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, recommender systems, matrix algebra, information retrieval, matrix factorizations, social networks, social relationships, empirical analysis, social relations, image reconstruction, numerical model, world wide web
+  Human expert result: recommendation algorithms, factorization, collaborative filtering techniques, recommendation systems, collaborative filtering, regularization, recommender systems, matrix algebra, information retrieval, matrix factorization, social network, context-aware recommender systems
+  """
+  Your expected output: 11
+  Example 2:
+  Example input:
+  """
+  CSOC result: metadata, social bookmarking, folksonomies, web page, semantic web, user interfaces, web 2.0, world wide web, personalizations, semantics, search engines, social networks, software architecture, electronic commerce, viewpoint
+  Human expert result: metadata, social bookmarking, folksonomies, web page, semantic web, user interfaces, web 2.0, world wide web, personalization, semantic desktop, information retrieval, ontology, information management
+  """
+  Your expected output: 10
+  ###
+  Now it's your turn. Please give the count of similar keywords that you can find in the two lists of the following input delimited by """.
+  Input:
+  """
+  CSOC result: XXXcsoc_topics_orderedXXX
+  Human expert result:  XXXgold_standard_orderedXXX
+  """
+  Your output:

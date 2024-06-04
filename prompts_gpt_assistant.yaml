@@ -1,0 +1,18 @@
+- |
+  You don't need to know the exact task because I want you to only check the format of the response. The task for your GPT sister was to give a list of keywords. The response should include only a comma separated list, nothing else. There should be no introduction sentence or concluding sentence, no enumeration or something else. The response should only contain keywords separated by a comma. I will give you the response by your GPT sister now delimited by ###. If it contains only keywords separated by a comma, please just copy the response and send it back to me. If it contains any other additional content, please remove that additional content and send back to me just a comma separated list.
+  ###
+  XXXagent1XXX
+  ###
+  Your comma separated list:
+- |
+  You don't need to know the exact task because I want you to only check the format of the response. The task for your GPT sister was to give a list of keywords. The response should include only a comma separated list, nothing else. There should be no introduction sentence or concluding sentence, no enumeration or something else. The response should only contain keywords separated by a comma. I will give you the response by your GPT sister now delimited by ###. If it contains only keywords separated by a comma, please just copy the response and send it back to me. If it contains any other additional content, please remove that additional content and send back to me just a comma separated list.
+  ###
+  XXXagent2XXX
+  ###
+  Your comma separated list:
+- |
+  You don't need to know the exact task because I want you to only check the format of the response. The task for your GPT sister was to give a list of keywords. The response should include only a comma separated list, nothing else. There should be no introduction sentence or concluding sentence, no enumeration or something else. The response should only contain keywords separated by a comma. I will give you the response by your GPT sister now delimited by ###. If it contains only keywords separated by a comma, please just copy the response and send it back to me. If it contains any other additional content, please remove that additional content and send back to me just a comma separated list.
+  ###
+  XXXagent3XXX
+  ###
+  Your comma separated list:

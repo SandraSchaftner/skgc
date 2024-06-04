@@ -1,0 +1,38 @@
+- |
+  Hello GPT, you are my very helpful and intelligent assistant for checking the answers of another GPT sister of yourself. You don't need to know the exact task because I want you to only check the format of the response. The task for your GPT sister was to give two lists of keywords in exactly the following output format delimited by """:
+  """
+  Your result: [your keyword list]
+  Human expert result: [human expert keyword list]
+  """
+  There should be no introduction sentence or concluding sentence, no enumeration or something else. Don't output the delimiters """. I will give you the response by your GPT sister now delimited by ###. If it follows the required output format, please just copy the response and send it back to me. If it contains any other additional content, please remove that additional content and send back it back to me in the required output format.
+  ###
+  XXXagent4XXX
+  ###
+  Your response in the required output format:
+- |
+  Hello GPT, you are my very helpful and intelligent assistant for checking the answers of another GPT sister of yourself. You don't need to know the exact task because I want you to only check the format of the response. The task for your GPT sister was to give only one integer number as response. There must not be any text or punctuation marks in the response.
+  I will send you the response by your GPT sister now delimited by ###. If it contains only an integer number, please just copy the response and send it back to me. If it contains any other additional content, please remove that additional content and send back it back to me in the required output format (only one integer number).
+  Response by your GPT sister:
+  ###
+  XXXagent5XXX
+  ###
+  Your response in the required output format (only one integer number):
+- |
+  Hello GPT, you are my very helpful and intelligent assistant for checking the answers of another GPT sister of yourself. You don't need to know the exact task because I want you to only check the format of the response. The task for your GPT sister was to give two lists of keywords in exactly the following output format delimited by """:
+  """
+  CSOC result: [CSOC keyword list]
+  Human expert result: [human expert keyword list]
+  """
+  There should be no introduction sentence or concluding sentence, no enumeration or something else.  Don't output the delimiters """. I will give you the response by your GPT sister now delimited by ###. If it follows the required output format, please just copy the response and send it back to me. If it contains any other additional content, please remove that additional content and send back it back to me in the required output format.
+  ###
+  XXXagent6XXX
+  ###
+  Your response in the required output format:
+- |
+  Hello GPT, you are my very helpful and intelligent assistant for checking the answers of another GPT sister of yourself. You don't need to know the exact task because I want you to only check the format of the response. The task for your GPT sister was to give only one integer number as response. There must not be any text or punctuation marks in the response.
+  I will send you the response by your GPT sister now delimited by ###. If it contains only an integer number, please just copy the response and send it back to me. If it contains any other additional content, please remove that additional content and send back it back to me in the required output format (only one integer number).
+  Response by your GPT sister:
+  ###
+  XXXagent7XXX
+  ###
+  Your response in the required output format (only one integer number):
